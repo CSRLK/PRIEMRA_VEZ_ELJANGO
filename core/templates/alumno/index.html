@@ -1,0 +1,43 @@
+{% extends 'core/base.html'%}
+
+{% block contenido  %}
+
+
+
+<div class="col-md-10">
+
+
+
+    <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">NOMBRE</th>
+      <th scope="col">APELLIDO</th>
+      <th scope="col">EDAD</th>
+      <th scope="col">OPCIONES</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for alumno in object_list %}
+
+    <tr>
+      <th scope="row">{{ alumno.id}}</th>
+
+      <td>{{ alumno.nombre}}</td>
+      <td>{{ alumno.apellido}}</td>
+      <td>{{ alumno.edad}}</td>
+      <td>
+          <a class="btn btn-outline-success" href="{% url 'alumno.update' alumno.id %}">EDITAR</a>
+          <a class="btn btn-outline-danger" href="{% url 'alumno.delete' alumno.id %}">ELIMINAR</a>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<a class="btn btn-outline-dark " href="{% url 'alumno.create' %}">CREAR</a>
+
+  </div>
+
+{% endblock %}

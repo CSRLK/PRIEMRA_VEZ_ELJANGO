@@ -1,0 +1,41 @@
+{% extends 'core/base.html'%}
+
+{% block contenido  %}
+
+
+
+<div class="col-md-10">
+
+
+
+    <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">GRADO</th>
+      <th scope="col">NIVEL </th>
+      <th scope="col">OPCIONES</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for grado in object_list %}
+
+    <tr>
+      <th scope="row">{{ grado.id}}</th>
+
+      <td>{{ grado.nombre}}</td>
+      <td>{{ grado.nivel}}</td>
+      <td>
+          <a class="btn btn-outline-success" href="{% url 'grado.update' grado.id %}">EDITAR</a>
+          <a class="btn btn-outline-danger" href="{% url 'grado.delete' grado.id %}">ELIMINAR</a>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<a class="btn btn-outline-dark " href="{% url 'grado.create' %}">CREAR</a>
+
+  </div>
+
+{% endblock %}

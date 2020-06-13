@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfa2c787-f605-463e-a62a-d92bd49b5054" name="Default Changelist" comment="" />
+    <list default="true" id="cfa2c787-f605-463e-a62a-d92bd49b5054" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/class_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/alumno/alumno_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/alumno/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/alumno/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/carrusel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/grado/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/grado/grado_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/grado/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/inscripcion/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/inscripcion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/inscripcion/inscripcion_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/seccion/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/seccion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/seccion/seccion_confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaginaUno/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PaginaUno/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaginaUno/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PaginaUno/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/static/core/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,7 +65,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cTNx0EUOjaNbjqABETJNpfN3oL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,10 +79,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cmiro\Desktop\django\NuevoIntento\PaginaUno\core\templates" />
+      <recent name="C:\Users\cmiro\Desktop\django\NuevoIntento\PaginaUno\core\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cmiro\Desktop\django\NuevoIntento\PaginaUno\core\templates\core\static" />
       <recent name="C:\Users\cmiro\Desktop\django\NuevoIntento\PaginaUno\core" />
     </key>
   </component>
@@ -39,6 +98,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="PaginaUno.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -69,7 +129,19 @@
       <updated>1590548865699</updated>
       <workItem from="1590548866972" duration="4871000" />
       <workItem from="1590620366204" duration="2771000" />
-      <workItem from="1590627602231" duration="6469000" />
+      <workItem from="1590627602231" duration="7438000" />
+      <workItem from="1591059588258" duration="3168000" />
+      <workItem from="1591143896389" duration="1282000" />
+      <workItem from="1591150470177" duration="9492000" />
+      <workItem from="1591228562175" duration="9714000" />
+      <workItem from="1591391230872" duration="831000" />
+      <workItem from="1591911462664" duration="361000" />
+      <workItem from="1591912105578" duration="17000" />
+      <workItem from="1591912174956" duration="11112000" />
+      <workItem from="1591924602957" duration="5073000" />
+      <workItem from="1591931375546" duration="6494000" />
+      <workItem from="1591939029075" duration="4022000" />
+      <workItem from="1592055942756" duration="3906000" />
     </task>
     <servers />
   </component>
@@ -77,9 +149,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1590627604431">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1591911821643">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590627604431" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591911821643" />
+    <state width="1493" height="75" key="GridCell.Tab.0.bottom" timestamp="1592067435085">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="75" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592067435085" />
+    <state width="1493" height="75" key="GridCell.Tab.0.center" timestamp="1592067435085">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="75" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592067435085" />
+    <state width="1493" height="75" key="GridCell.Tab.0.left" timestamp="1592067435084">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="75" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592067435084" />
+    <state width="1493" height="75" key="GridCell.Tab.0.right" timestamp="1592067435085">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="75" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592067435085" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1592055949179">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1592055949179" />
   </component>
 </project>

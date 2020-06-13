@@ -1,0 +1,41 @@
+{% extends 'core/base.html'%}
+
+{% block contenido  %}
+
+
+
+<div class="col-md-10">
+
+
+
+    <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">SECCION</th>
+
+      <th scope="col">OPCIONES</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for seccion in object_list %}
+
+    <tr>
+      <th scope="row">{{ seccion.id}}</th>
+
+      <td>{{ seccion.nombre}}</td>
+
+      <td>
+          <a class="btn btn-outline-success" href="{% url 'seccion.update' seccion.id %}">EDITAR</a>
+          <a class="btn btn-outline-danger" href="{% url 'seccion.delete' seccion.id %}">ELIMINAR</a>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<a class="btn btn-outline-dark " href="{% url 'seccion.create' %}">CREAR</a>
+
+  </div>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends 'core/base.html'%}
+
+{% block contenido  %}
+
+
+
+<div class="col-md-10">
+
+
+
+    <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">ALUMNO</th>
+      <th scope="col">GRADO</th>
+      <th scope="col">SECCION</th>
+      <th scope="col">OPCIONES</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for inscripcion in object_list %}
+
+    <tr>
+      <th scope="row">{{ inscripcion.id}}</th>
+
+      <td>{{ inscripcion.alumno.nombre}}</td>
+      <td>{{ inscripcion.grado.nombre}}</td>
+      <td>{{ inscripcion.seccion.nombre}}</td>
+      <td>
+          <a class="btn btn-outline-success" href="{% url 'inscripcion.update' inscripcion.id %}">EDITAR</a>
+          <a class="btn btn-outline-danger" href="{% url 'inscripcion.delete' inscripcion.id %}">ELIMINAR</a>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<a class="btn btn-outline-dark " href="{% url 'inscripcion.create' %}">CREAR</a>
+
+  </div>
+
+{% endblock %}

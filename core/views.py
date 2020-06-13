@@ -32,4 +32,7 @@ class views():
         plantilla = get_template('core/pageCinco.html')
         return HttpResponse(plantilla.render())
 
+    def carrusel(self):
+        plantilla = get_template('carrusel/index.html')
+        return HttpResponse(plantilla.render())
 

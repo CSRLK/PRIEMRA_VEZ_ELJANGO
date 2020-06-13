@@ -29,8 +29,10 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 INSTALLED_APPS = [
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -76,8 +79,13 @@ WSGI_APPLICATION = 'PaginaUno.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'esuela',
+        'USER': 'csrmm',
+        'PASSWORD': 'Candle020210ptb',
+        'HOST': 'localhost',
+        'DATABASE_PORT': '3306',
+
     }
 }
 
